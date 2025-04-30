@@ -1,0 +1,2 @@
+ALTER TABLE tbltown
+MODIFY COLUMN customer_id INT NOT NULL;
