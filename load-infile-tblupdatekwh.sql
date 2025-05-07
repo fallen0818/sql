@@ -1,7 +1,0 @@
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/kwh202504.csv'
-INTO TABLE update_tblkwh
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(customerid, kwh202504);

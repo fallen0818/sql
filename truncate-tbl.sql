@@ -1,1 +1,1 @@
-tr
+TRUNCATE TABLE tbltown
