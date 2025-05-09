@@ -1,0 +1,1 @@
+ALTER TABLE tblsupplier MODIFY COLUMN kWhCost DECIMAL(12,2);

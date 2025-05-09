@@ -1,4 +1,10 @@
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/xlsloadprofile.csv' INTO TABLE tblloadprofile FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
+LOAD DATA INFILE 
+'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/xlsloadprofile.csv' 
+INTO TABLE 
+tblloadprofile FIELDS TERMINATED 
+BY ',' ENCLOSED 
+BY '"' LINES TERMINATED 
+BY '\n' IGNORE 1 ROWS (
     LPID,
     @billing_date,
     billing_time,
