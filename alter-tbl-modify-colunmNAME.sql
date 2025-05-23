@@ -1,0 +1,1 @@
+ALTER TABLE tbltown MODIFY COLUMN old_column_name column_type;

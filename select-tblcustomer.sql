@@ -1,5 +1,4 @@
 SELECT customerid, caddress, Barangay, Town
 FROM tblcustomer
-WHERE Barangay IS NOT NULL
-AND caddress like '%mabuhay%'
+WHERE Barangay LIKE 'anda%'
 ORDER BY Town;

@@ -1,1 +1,1 @@
-TRUNCATE TABLE tbltown
+TRUNCATE TABLE tblbarangay
