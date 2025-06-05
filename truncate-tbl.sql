@@ -1,1 +1,1 @@
-TRUNCATE TABLE tblbarangay
+TRUNCATE TABLE update_tblkwh

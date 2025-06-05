@@ -8,11 +8,12 @@ SELECT
     u.kwh202502, 
     u.kwh202503,
     u.kwh202504,
+    u.kwh202505,
     CASE 
-        WHEN u.kwh202502 = 0 THEN NULL
-        ELSE ((u.kwh202504 - u.kwh202503) / u.kwh202503) * 100
+        WHEN u.kwh202505 = 0 THEN NULL
+        ELSE ((u.kwh202505 - u.kwh202504) / u.kwh202504) * 100
     END AS percent_change
 FROM tblcustomer c
 JOIN tblkwh u ON c.customerid = u.customerid
 HAVING percent_change < -50
-ORDER BY kwh202503 DESC;
+ORDER BY kwh202504 DESC;

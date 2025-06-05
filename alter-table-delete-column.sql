@@ -1,0 +1,1 @@
+ALTER TABLE update_tblkwh DROP COLUMN kwh202504;
