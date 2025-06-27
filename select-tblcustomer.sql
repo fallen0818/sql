@@ -1,4 +1,5 @@
 SELECT customerid, caddress, Barangay, Town
 FROM tblcustomer
-WHERE caddress LIKE '%MAPANGDEL%'
+WHERE town LIKE '%bolinao%'
+AND Barangay LIKE '%bolinao%'
 ORDER BY customerid;
