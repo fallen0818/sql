@@ -1,3 +1,2 @@
-SELECT customerid, caddress, town, barangay
+SELECT *
 FROM tblcustomer
-WHERE barangay LIKE '%dasol%'

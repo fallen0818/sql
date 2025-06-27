@@ -1,1 +1,1 @@
-TRUNCATE TABLE update_tblkwh
+TRUNCATE TABLE tbltown

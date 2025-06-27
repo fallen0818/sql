@@ -3,6 +3,6 @@ SELECT
     FORMAT(COUNT(c.customerid), 0) AS total_countcustomerid
 FROM tblcustomer c
 JOIN tblkwh k ON c.customerid = k.customerid
-WHERE c.Town LIKE '%bani%'
+WHERE c.Town LIKE '%infanta%'
 GROUP BY c.barangay
 ORDER BY c.barangay ASC;
