@@ -1,0 +1,2 @@
+ALTER TABLE update_tblkwh
+ADD COLUMN kwh202505 INT;

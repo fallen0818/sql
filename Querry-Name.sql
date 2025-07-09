@@ -1,2 +1,2 @@
 SELECT *
-FROM tblcustomer
+FROM tblloadprofile2

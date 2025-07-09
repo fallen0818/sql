@@ -1,4 +1,4 @@
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/202505.csv'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/202506.csv'
 INTO TABLE update_tblkwh
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
